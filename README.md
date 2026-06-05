@@ -6,7 +6,7 @@
 
 ### AI-Powered Career Platform — Full Stack
 
-**Resume analyse karo · ATS score pao · Sahi jobs dhundho · Professional resume banao · Har interview ace karo**
+**Analyse your resume · Get your ATS score · Discover the right jobs · Build a stunning resume · Ace every interview**
 
 <br/>
 
@@ -49,9 +49,9 @@
 
 ## 📖 About
 
-**JobPilot AI** ek full-stack, AI-powered career platform hai jo job seekers ko unke poore job hunt mein guide karta hai. Resume ka ATS compatibility check karo, skill-matched jobs dhundho, ATS-optimised resume banao, aur AI-backed interview prep se confident bano.
+**JobPilot AI** is a full-stack, AI-powered career platform designed to support job seekers at every step of their job search. Analyse your resume for ATS compatibility, discover skill-matched job opportunities, build a professional resume from scratch, and prepare for interviews with AI-backed feedback — all in one place.
 
-Chahe aap fresher ho ya experienced professional — **JobPilot AI aapko woh edge deta hai jo dream job land karne ke liye chahiye.**
+Whether you are a fresher applying for your first role or an experienced professional switching careers, **JobPilot AI gives you the competitive edge to land your dream job faster.**
 
 > 🔗 **Live:** [https://jobpilotai-aditayan.vercel.app/](https://jobpilotai-aditayan.vercel.app/)
 
@@ -84,7 +84,7 @@ Chahe aap fresher ho ya experienced professional — **JobPilot AI aapko woh edg
 
 <br/>
 
-### 🛠 Resume Builder — Improve Existing
+### 🛠 Resume Builder — Improve Existing Resume
 <img src="https://raw.githubusercontent.com/Aditayan-patel/JobPilot-AI-Frontend/main/screenshots/screenshot_resume_improve.png" alt="Resume Improve" width="100%"/>
 
 <br/>
@@ -106,14 +106,14 @@ Chahe aap fresher ho ya experienced professional — **JobPilot AI aapko woh edg
 
 ## ✨ Features
 
-| # | Feature | Description |
-|---|---------|-------------|
-| 🤖 | **AI Resume Analyser** | Resume upload karo — instant ATS score (out of 100), strengths & weaknesses, keyword gap analysis, aur section-by-section feedback |
-| 💼 | **Smart Job Matcher** | AI tumhare skills se matching jobs dhundta hai — har role ke liye match %, skill gaps, aur one-click apply guidance |
-| 📄 | **AI Resume Creator** | Scratch se recruiter-ready, ATS-optimised resume banao ya existing improve karo — instantly PDF export karo |
-| 🎤 | **Interview Preparation** | Skills aur resume ke based personalised HR + Technical questions, AI feedback ke saath |
-| 💰 | **Flexible Pricing** | 3 free AI requests — Pro Monthly (₹99/mo) ya Pro 6-Month (₹499) mein upgrade karo unlimited access ke liye |
-| 👤 | **User Profiles** | Account manage karo, subscription track karo, activity history dekho |
+| Feature | Description |
+|---------|-------------|
+| 🤖 **AI Resume Analyser** | Upload your resume and receive an instant ATS score out of 100, a strengths and weaknesses breakdown, keyword gap analysis, and section-by-section feedback |
+| 💼 **Smart Job Matcher** | AI matches you with roles suited to your skills — including match percentage per role, skill gaps for each job, and one-click apply guidance |
+| 📄 **AI Resume Creator** | Build a recruiter-ready, ATS-optimised resume from scratch or improve your existing one — export as PDF instantly |
+| 🎤 **Interview Preparation** | Get personalised HR and Technical interview questions based on your skills and resume, with AI-generated answer feedback |
+| 💰 **Flexible Pricing** | Start free with 3 AI requests — upgrade to Pro Monthly (₹99/mo) or Pro 6-Month (₹499) for unlimited access |
+| 👤 **User Profiles** | Manage your account, track your subscription plan, and view your activity history |
 
 ---
 
@@ -166,7 +166,7 @@ Chahe aap fresher ho ya experienced professional — **JobPilot AI aapko woh edg
 JobPilot-AI-Frontend/
 ├── public/
 ├── src/
-│   ├── assets/                 # Images, icons, static files
+│   ├── assets/                 # Images, icons, and static files
 │   ├── components/
 │   │   ├── ctabanner.tsx       # Call-to-action banner
 │   │   ├── features.tsx        # Features section
@@ -180,13 +180,13 @@ JobPilot-AI-Frontend/
 │   ├── context/
 │   │   └── AppContext.tsx      # Global app state (React Context)
 │   ├── pages/
-│   │   ├── Account.tsx         # User profile & account
+│   │   ├── Account.tsx         # User profile and account
 │   │   ├── Analyse.tsx         # Resume analyser
 │   │   ├── BuildResume.tsx     # Resume builder
 │   │   ├── Home.tsx            # Landing page
-│   │   ├── Interview.tsx       # Interview prep
+│   │   ├── Interview.tsx       # Interview preparation
 │   │   ├── JobMatcher.tsx      # Job matcher
-│   │   └── Login.tsx           # Login / auth
+│   │   └── Login.tsx           # Login and authentication
 │   ├── App.tsx
 │   └── index.css
 ├── index.html
@@ -203,13 +203,13 @@ JobPilot-AI-Frontend/
 Jobpilot-ai-backend/
 ├── src/
 │   ├── config/
-│   │   ├── db.ts              # MongoDB connection
-│   │   ├── googleconfig.ts    # Google OAuth config
+│   │   ├── db.ts              # MongoDB connection setup
+│   │   ├── googleconfig.ts    # Google OAuth configuration
 │   │   └── prompt.ts          # AI prompt templates
 │   ├── controllers/
-│   │   ├── ai.ts              # Career advice, resume review logic
-│   │   ├── payment.ts         # Razorpay order & verification
-│   │   └── user.ts            # Registration, login, profile
+│   │   ├── ai.ts              # Career advice and resume review logic
+│   │   ├── payment.ts         # Razorpay order creation and verification
+│   │   └── user.ts            # User registration, login, and profile
 │   ├── middlewares/
 │   │   ├── isAuth.ts          # JWT authentication guard
 │   │   └── trycatch.ts        # Global async error handler
@@ -231,11 +231,11 @@ Jobpilot-ai-backend/
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) v18+
+- [Node.js](https://nodejs.org/) v18 or higher
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 - [Git](https://git-scm.com/)
 - MongoDB (local or [Atlas](https://www.mongodb.com/atlas))
-- Google Cloud project with OAuth 2.0 credentials
+- Google Cloud project with OAuth 2.0 credentials enabled
 - Razorpay account (Key ID + Secret)
 - Google Gemini API key
 
@@ -244,24 +244,24 @@ Jobpilot-ai-backend/
 ### Frontend Setup
 
 ```bash
-# 1. Clone
+# 1. Clone the repository
 git clone https://github.com/Aditayan-patel/JobPilot-AI-Frontend.git
 cd JobPilot-AI-Frontend
 
 # 2. Install dependencies
 npm install
 
-# 3. Add environment variables (see section below)
+# 3. Configure environment variables (see section below)
 
-# 4. Start dev server
+# 4. Start the development server
 npm run dev
-# → http://localhost:5173
+# → Runs at http://localhost:5173
 ```
 
-**Other scripts:**
+**Other available scripts:**
 ```bash
-npm run build     # Production build
-npm run preview   # Preview production build
+npm run build     # Build for production
+npm run preview   # Preview the production build locally
 npm run lint      # Run ESLint
 ```
 
@@ -270,19 +270,19 @@ npm run lint      # Run ESLint
 ### Backend Setup
 
 ```bash
-# 1. Clone
+# 1. Clone the repository
 git clone https://github.com/Aditayan-patel/Jobpilot-ai-backend.git
 cd Jobpilot-ai-backend
 
-# 2. Install & compile TypeScript
+# 2. Install dependencies and compile TypeScript
 npm run build
 
-# 3. Add environment variables (see section below)
+# 3. Configure environment variables (see section below)
 
-# 4. Start server
+# 4. Start the server
 npm run dev    # Development — watch mode with live reload
 npm start      # Production
-# → http://localhost:5000
+# → Runs at http://localhost:5000
 ```
 
 ---
@@ -320,7 +320,7 @@ RAZORPAY_KEY_ID=your_razorpay_key_id
 RAZORPAY_KEY_SECRET=your_razorpay_key_secret
 ```
 
-> ⚠️ **Never commit `.env` files.** Both are already listed in `.gitignore`.
+> ⚠️ **Never commit your `.env` files.** Both are already listed in `.gitignore`.
 
 ---
 
@@ -333,21 +333,21 @@ RAZORPAY_KEY_SECRET=your_razorpay_key_secret
 | Method | Endpoint | Auth | Description |
 |--------|----------|:----:|-------------|
 | `POST` | `/google-login` | ❌ | Sign in with Google OAuth |
-| `GET` | `/profile` | ✅ | Get current user profile |
+| `GET` | `/profile` | ✅ | Retrieve the current user's profile |
 
 ### 🤖 AI Routes — `/api/ai`
 
 | Method | Endpoint | Auth | Description |
 |--------|----------|:----:|-------------|
-| `POST` | `/career-advice` | ✅ | Personalised AI career guidance |
-| `POST` | `/resume-review` | ✅ | Resume analyse & improvement |
+| `POST` | `/career-advice` | ✅ | Get personalised AI career guidance |
+| `POST` | `/resume-review` | ✅ | Analyse and improve resume content |
 
 ### 💳 Payment Routes — `/api/payment`
 
 | Method | Endpoint | Auth | Description |
 |--------|----------|:----:|-------------|
-| `POST` | `/create-order` | ✅ | Create new Razorpay order |
-| `POST` | `/verify` | ✅ | Verify payment signature |
+| `POST` | `/create-order` | ✅ | Create a new Razorpay payment order |
+| `POST` | `/verify` | ✅ | Verify Razorpay payment signature |
 
 ---
 
@@ -357,7 +357,7 @@ RAZORPAY_KEY_SECRET=your_razorpay_key_secret
 |------|-------|------------|
 | **Free** | ₹0 | 3 AI requests · ATS score report · Basic job matches · 1 resume template |
 | **Pro Monthly** | ₹99 / month | Unlimited analyses · Full ATS report · Unlimited job matching · All templates + PDF export · Unlimited interview prep |
-| **Pro 6-Month** | ₹499 / 6 months | Everything in Pro Monthly + Early feature access · Weekly AI resume review · LinkedIn profile tips · Dedicated support |
+| **Pro 6-Month** | ₹499 / 6 months | Everything in Pro Monthly · Early access to new features · Weekly AI resume review · LinkedIn profile tips · Dedicated support |
 
 ---
 
@@ -366,23 +366,24 @@ RAZORPAY_KEY_SECRET=your_razorpay_key_secret
 | Layer | Platform | URL |
 |-------|----------|-----|
 | Frontend | Vercel | [jobpilotai-aditayan.vercel.app](https://jobpilotai-aditayan.vercel.app/) |
-| Backend | Railway / Render / Any Node host | Your hosted URL |
+| Backend | Railway / Render / Any Node.js host | Your hosted backend URL |
 
-**Deploy your own frontend instance:**
+**To deploy your own instance:**
 
 1. Fork this repository
-2. Import on [Vercel](https://vercel.com/)
-3. Add environment variables in Vercel dashboard
+2. Import the project on [Vercel](https://vercel.com/)
+3. Add your environment variables in the Vercel dashboard
 4. Click **Deploy** ✅
 
 ---
 
 ## 🤝 Contributing
 
-Contributions, issues, aur feature requests welcome hain!
+Contributions, issues, and feature requests are welcome!
 
 ```bash
-# 1. Fork the repo
+# 1. Fork the repository
+
 # 2. Create your feature branch
 git checkout -b feature/AmazingFeature
 
@@ -411,6 +412,6 @@ git push origin feature/AmazingFeature
 
 Made with ❤️ by Aditayan Patel
 
-**⭐ Agar yeh project helpful laga — star zaroor karo! ⭐**
+**⭐ If this project helped you, please give it a star! ⭐**
 
 </div>
